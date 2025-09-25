@@ -47,6 +47,36 @@
         margin-block-start: 0px;
         margin-block-end: 0px;
     }
+
+    .resume-download {
+        margin-top: 20px;
+        
+        .resume-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background-color: #007acc;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: 2px solid #007acc;
+
+            &:hover {
+                background-color: transparent;
+                color: #007acc;
+                transform: translateY(-2px);
+                box-shadow: 0 4px 12px rgba(0, 122, 204, 0.3);
+            }
+
+            svg {
+                font-size: 1.2em;
+            }
+        }
+    }
 }
 
 .about-section .image-wrapper {
@@ -145,6 +175,11 @@
             padding-left: 5%;
             padding-right: 5%;
             padding-bottom: 5%;
+
+            .resume-download .resume-btn {
+                font-size: 0.9rem;
+                padding: 10px 20px;
+            }
         }
 
         .about-section .image-wrapper {

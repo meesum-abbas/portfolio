@@ -14,24 +14,35 @@ import '../assets/styles/Project.scss';
 function Project() {
     return(
     <div className="projects-container" id="projects">
-        <h1>Personal Projects</h1>
+        <h1>Best Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://ait.smartcampuses.com/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://ait.smartcampuses.com/" target="_blank" rel="noreferrer"><h2>University LMS & ERP</h2></a>
+                <p>Designed and developed an education management system including student
+information, attendance, fees, exams, and staff modules using Codeignitor, Php and other libraries.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://cadpro.org.uk/profile/admin/" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://cadpro.org.uk/profile/admin/" target="_blank" rel="noreferrer"><h2>CADPRO Career Development Program</h2></a>
+                <p>Designed, developed, and deployed a comprehensive career development platform using Laravel for CAD professionals with website <a href="https://cadpro.org.uk" target="_blank" rel="noreferrer">cadpro.org.uk</a>.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href="https://laureate.org.uk/auth" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://laureate.org.uk/auth" target="_blank" rel="noreferrer"><h2>Laureate: International LMS</h2></a>
+                <p>Designed, developed, and deployed a comprehensive learning management system using Node, Express, Vite, React, also worked on LLM and OpenAi for Ai automation in it for international students with website <a href="https://laureate.org.uk/" target="_blank" rel="noreferrer">laureate.org.uk</a>.</p>
             </div>
             <div className="project">
+                <a href="https://cadproconnect.org/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://cadproconnect.org/" target="_blank" rel="noreferrer"><h2>Email Marketing Software</h2></a>
+                <p>Designed, developed, and deployed a comprehensive email marketing software with Ai automation for bulk email marketing campaigns. Made with Python and Django.</p>
+            </div>
+            <div className="project">
+                <a href="https://qaqf.co.uk/crm/admin/" target="_blank" rel="noreferrer"></a>
+                <a href="https://qaqf.co.uk/crm/admin/" target="_blank" rel="noreferrer"><h2>QAQF CRM</h2></a>
+                <p>Worked on QAQF CRM with Laravel & PHP.</p>
+            </div>
+            {/* <div className="project">
                 <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
                 <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
@@ -65,7 +76,7 @@ function Project() {
                 <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
                 <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
-            </div>
+            </div> */}
         </div>
     </div>
     );

@@ -23,10 +23,7 @@ const labelsSecond = [
     "Git",
     "GitHub Actions",
     "Docker",
-    "AWS",
-    "Azure",
     "Linux",
-    "Snowflake",
     "Pandas",
     "Selenium",
 ];
@@ -34,11 +31,8 @@ const labelsSecond = [
 const labelsThird = [
     "OpenAI",
     "Groq",
-    "LangChain",
-    "Qdrant",
+    "Ollama",
     "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
 ];
 
 function Expertise() {
