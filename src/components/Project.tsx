@@ -1,5 +1,6 @@
 import React from "react";
 import mock06 from '../assets/images/mock06.png';
+import qaqfImage from '../assets/images/image.png';
 import mock07 from '../assets/images/mock07.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
@@ -32,7 +33,7 @@ information, attendance, fees, exams, and staff modules using Codeignitor, Php a
                 <p>Designed, developed, and deployed a comprehensive email marketing software with Ai automation for bulk email marketing campaigns. Made with Python and Django.</p>
             </div>
             <div className="project">
-                <a href="https://qaqf.co.uk/crm/admin/" target="_blank" rel="noreferrer"></a>
+                <a href="https://qaqf.co.uk/crm/admin/" target="_blank" rel="noreferrer"><img src={qaqfImage} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://qaqf.co.uk/crm/admin/" target="_blank" rel="noreferrer"><h2>QAQF CRM</h2></a>
                 <p>Worked on QAQF CRM with Laravel & PHP.</p>
             </div>
